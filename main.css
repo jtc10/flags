@@ -1,0 +1,53 @@
+*  {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 800px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  height: 200px;
+  width: 350px;
+  margin: 20px;
+}
+
+.text-div {
+  height: 40px;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.text-div p {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#us .image {
+  background: url('https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1920px-Flag_of_the_United_States.svg.png') center center no-repeat;
+  background-size: cover;
+}
+
+#nigeria .image {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/1920px-Flag_of_Nigeria.svg.png') center center no-repeat;
+  background-size: cover;
+}
+
+#colombia .image {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/255px-Flag_of_Colombia.svg.png') center center no-repeat;
+  background-size: cover;
+}
