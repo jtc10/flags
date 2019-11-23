@@ -11,6 +11,21 @@ p {
   margin: 0;
   padding: 0;
 }
+h1,
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: lighter;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 30px;
+}
 .container {
   width: 800px;
   margin: auto;
@@ -22,6 +37,7 @@ p {
   height: 200px;
   width: 350px;
   margin: 20px;
+  border: 1px solid lightgray;
 }
 
 .text-div {
@@ -37,7 +53,7 @@ p {
   text-transform: uppercase;
 }
 
-#us .image {
+/* #us .image {
   background: url('https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1920px-Flag_of_the_United_States.svg.png') center center no-repeat;
   background-size: cover;
 }
@@ -50,4 +66,4 @@ p {
 #colombia .image {
   background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/255px-Flag_of_Colombia.svg.png') center center no-repeat;
   background-size: cover;
-}
+} */
